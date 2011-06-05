@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/MyJAVAIQ-PROJECTS/SLOC/SLOCApp/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>SLOC</title>
+        <vendor>javaiq.in</vendor>
+        <homepage href="http://javaiq.in"/>
+        <description>Source code counter</description>
+        <description kind="short">SLOC</description>
+
+    </information>
+<update check="background"/>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar href="SLOCApp.jar" main="true"/>
+
+
+    </resources>
+    <application-desc main-class="SourceCodeStatsUtil">
+
+    </application-desc>
+</jnlp>
